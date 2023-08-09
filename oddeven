@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter the num:");
+	scanf("%d",&num);
+	if(num%2==0)
+	{
+	printf("%d is a evennum",num);
+}
+else
+printf("%d is not a evenum",num);
+return 0;
+}
+	
